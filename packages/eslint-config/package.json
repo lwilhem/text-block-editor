@@ -1,0 +1,24 @@
+{
+  "name": "@brainhack/eslint-config",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "eslint-plugin-format": "^0.1.0",
+    "eslint-plugin-svelte": "^2.35.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.2",
+    "eslint": "^8.56.0",
+    "svelte": "^4.2.10",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

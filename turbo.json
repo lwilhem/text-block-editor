@@ -1,0 +1,21 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "cache": true,
+      "persistent": false
+    },
+    "check": {
+      "cache": true,
+      "persistent": false
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".svelte-kit/**", ".vercel/**"]
+    }
+  }
+}
