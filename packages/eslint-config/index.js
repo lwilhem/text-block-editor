@@ -13,6 +13,7 @@ export default function defineEslintConfig() {
     stylistic: {
       quotes: "double",
     },
+    unocss: true,
     svelte: true,
     formatters: {
       html: true,
