@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.6.4",
-    "@unocss/eslint-plugin": "^0.58.5",
     "eslint-plugin-format": "^0.1.0",
     "eslint-plugin-svelte": "^2.35.1"
   },
@@ -17,8 +16,7 @@
     "@types/eslint": "^8.56.2",
     "eslint": "^8.56.0",
     "svelte": "^4.2.10",
-    "typescript": "^5.3.3",
-    "unocss": "^0.58.5"
+    "typescript": "^5.3.3"
   },
   "publishConfig": {
     "access": "public"
