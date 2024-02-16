@@ -43,5 +43,8 @@
     "toml"
   ],
 
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
 }
