@@ -5,14 +5,8 @@
       "cache": false,
       "persistent": true
     },
-    "lint": {
-      "cache": true,
-      "persistent": false
-    },
-    "check": {
-      "cache": true,
-      "persistent": false
-    },
+    "lint": {},
+    "check": {},
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".svelte-kit/**", ".vercel/**"]
