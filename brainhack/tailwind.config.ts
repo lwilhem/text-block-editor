@@ -1,9 +1,5 @@
-import type { Config } from "tailwindcss"
+import defineTailwindConfig from "@brainhack/tailwind-config/tailwind-config"
 
-export default {
-  content: ["./src/**/*.{html,js,svelte,ts}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-} satisfies Config
+export default defineTailwindConfig(
+  ["./src/**/*.{html,js,svelte,ts}"],
+)

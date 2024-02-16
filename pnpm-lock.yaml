@@ -20,6 +20,9 @@ importers:
 
   brainhack:
     devDependencies:
+      '@brainhack/tailwind-config':
+        specifier: workspace:*
+        version: link:../packages/tailwind-config
       '@sveltejs/adapter-auto':
         specifier: ^3.1.1
         version: 3.1.1(@sveltejs/kit@2.5.0)
@@ -75,6 +78,15 @@ importers:
       svelte:
         specifier: ^4.2.11
         version: 4.2.11
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
+  packages/tailwind-config:
+    devDependencies:
+      tailwindcss:
+        specifier: ^3.4.1
+        version: 3.4.1
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
