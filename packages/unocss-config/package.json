@@ -6,7 +6,7 @@
   "types": "./index.ts",
   "scripts": {
     "lint": "eslint . --fix",
-    "check": "ts --NoEmit"
+    "check": "tsc --NoEmit"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.64",

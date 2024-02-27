@@ -14,7 +14,7 @@
     "eslint-plugin-svelte": "^2.35.1"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.3",
+    "@types/eslint": "^8.56.4",
     "eslint": "^8.57.0",
     "svelte": "^4.2.12",
     "typescript": "^5.3.3"
